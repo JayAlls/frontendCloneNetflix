@@ -1,0 +1,125 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgba(255, 255, 255, 0.842);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  margin: -30px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+nav .left .onglets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.8rem;
+  margin-left: 20px;
+}
+
+nav .left .onglets p {
+  margin-right: 10px;
+}
+
+nav .left .onglets p:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 70px;
+  color: #fff;
+}
+
+nav .right p {
+  padding-left: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+nav .right p i {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.films-series {
+  background-color: #191a1a;
+  padding: 25px;
+  overflow: hidden;
+}
+
+.films-series .section {
+  margin-bottom: 55px;
+}
+
+.films-series .section .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 50px;
+}
+
+.films-series .section .list a {
+  margin-right: 10px;
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+}
+
+.films-series .section .list a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.films-series .section .list a img {
+  height: 140px;
+}
+
+.films-series .section h2 {
+  color: #fff;
+}
+
+footer {
+  padding: 25px;
+  background-color: #000;
+  color: #909191;
+}
+
+footer .colonnes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=style.css.map */

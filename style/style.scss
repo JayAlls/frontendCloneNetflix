@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+// NAVIGUATION
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgba(255, 255, 255, 0.842);
+  align-items: center;
+  .left {
+    display: flex;
+    padding: 5px;
+    margin: -30px 20px;
+    align-items: center;
+    font-weight: bold;
+    .onglets {
+      display: flex;
+      font-size: 0.8rem;
+      margin-left: 20px;
+      p {
+        margin-right: 10px;
+        &:hover {
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .right {
+    display: flex;
+    margin-right: 70px;
+    color: #fff;
+
+    p {
+      padding-left: 25px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      i {
+        font-weight: bold;
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+// END NAVIGUATION
+
+// LIST
+.films-series {
+  background-color: #191a1a;
+  padding: 25px;
+  overflow: hidden;
+  .section {
+    margin-bottom: 55px;
+    .list {
+      display: flex;
+      overflow-x: auto;
+      margin-bottom: 50px;
+      a {
+        margin-right: 10px;
+        transition: transform 0.25s;
+        &:hover {
+          transform: scale(1.05);
+        }
+        img {
+          height: 140px;
+        }
+      }
+    }
+    h2 {
+      color: #fff;
+    }
+  }
+}
+
+// END LIST
+// FOOTER
+footer {
+  padding: 25px;
+  background-color: #000;
+  color: #909191;
+  .colonnes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+// END FOOTER
